@@ -1,0 +1,7 @@
+@"
+.env
+.workspace/
+node_modules/
+dist/
+*.tsbuildinfo
+"@ | Out-File -Encoding utf8 .gitignore
